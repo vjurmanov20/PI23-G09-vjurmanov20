@@ -4,13 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Evaluation_Manager.Models {
-    public abstract class Person {
-        public int Id{ get; set; }
+namespace Evaluation_Manager.Models
+{
+    public class Person
+    {
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public override string ToString() {
+
+        public override string ToString()
+        {
             return FirstName + " " + LastName;
         }
-    }   // Public abstract class Person
+    }
 }
