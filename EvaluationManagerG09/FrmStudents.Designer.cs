@@ -47,12 +47,13 @@
             // 
             // btnEvaluateStudent
             // 
-            this.btnEvaluateStudent.Location = new System.Drawing.Point(616, 415);
+            this.btnEvaluateStudent.Location = new System.Drawing.Point(680, 408);
             this.btnEvaluateStudent.Name = "btnEvaluateStudent";
-            this.btnEvaluateStudent.Size = new System.Drawing.Size(133, 23);
+            this.btnEvaluateStudent.Size = new System.Drawing.Size(108, 30);
             this.btnEvaluateStudent.TabIndex = 1;
             this.btnEvaluateStudent.Text = "Evaluiraj studenta";
             this.btnEvaluateStudent.UseVisualStyleBackColor = true;
+            this.btnEvaluateStudent.Click += new System.EventHandler(this.btnEvaluateStudent_Click);
             // 
             // FrmStudents
             // 
