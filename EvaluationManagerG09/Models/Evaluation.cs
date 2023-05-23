@@ -18,4 +18,5 @@ namespace Evaluation_Manager.Models {
         public bool IsSufficientForSignature() {
             return Points >= Activity.MinPointsForSignature;
         }
+    }
 }
